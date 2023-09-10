@@ -81,4 +81,4 @@ REACT_APP_ATLAS_URI=mongodb+srv://<username>:<password>@data.uqt44o8.mongodb.net
 It needs a **Mongo DB ATLAS** URI and a database on it to run the app smoothly.
 
 > [!NOTE]
-> The server is already hosted by us here **https://visonary-glucometer-server.onrender.com**
+> The server is already hosted by us here `https://visonary-glucometer-server.onrender.com`
