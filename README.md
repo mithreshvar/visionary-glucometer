@@ -7,9 +7,8 @@ A mobile application for quickly measuring blood sugar levels through the pictur
 
 <img src="/preview/img1.jpg" alt="preview 1" width="300"/>
 
-<img src="/preview/img2.jpg" alt="preview 1" width="300"/>
+<img src="/preview/img4.jpg" alt="preview 2" width="300"/>
 
-<img src="/preview/img3.jpg" alt="preview 1" width="300"/>
+<img src="/preview/img2.jpg" alt="preview 3" width="300"/>
 
-<img src="/preview/img4.jpg" alt="preview 1" width="300"/>
-
+<img src="/preview/img3.jpg" alt="preview 4" width="300"/>
