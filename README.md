@@ -5,6 +5,10 @@ A mobile application for quickly measuring blood sugar levels through the pictur
 > [!NOTE]
 > This application doesn't `keep track of` / `store` pictures that you take for **security** reasons.
 
+
+ [download APK here](https://drive.google.com/file/d/1quB_Ji6U5I0M4RKZQFJt5WI2Uf5_jEFs/view?usp=drive_link).
+
+
 ## Preview of the app
 
 <img src="/preview/img1.jpg" alt="preview 1" width="300"/>
@@ -38,7 +42,7 @@ $ npx expo start
 
 The above command will start an expo server through which we can connect to our visionary glucose app from a mobile phone.
 
-This app is also available in `APK` format. You can download it [here](https://drive.google.com/file/d/1quB_Ji6U5I0M4RKZQFJt5WI2Uf5_jEFs/view?usp=drive_link).
+This app is also available in `APK` format. You can [download it here](https://drive.google.com/file/d/1quB_Ji6U5I0M4RKZQFJt5WI2Uf5_jEFs/view?usp=drive_link).
 
 > [!WARNING]
 > This APK is currently under development only for Android phones and the view is not responsive to all phones.
