@@ -63,7 +63,7 @@ $ node index.js
 
 You will need a `.env` file or set up the environment variables to run the server.
 
-```.env
+```.env [.env]
 REACT_APP_PORT = 8081
 REACT_APP_ATLAS_URI=mongodb+srv://<username>:<password>@data.uqt44o8.mongodb.net/?retryWrites=true&w=majority
 ```
