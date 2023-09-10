@@ -2,6 +2,8 @@
 
 A mobile application for quickly measuring blood sugar levels through the picture of the eye's retina.
 
+> [!NOTE]
+> This application doesn't `keep track of` / `store` pictures that you take for **security** reasons.
 
 ## Preview of the app
 
@@ -38,8 +40,33 @@ The above command will start an expo server through which we can connect to our 
 
 This app is also available in `APK` format. You can download it [here](https://drive.google.com/file/d/1quB_Ji6U5I0M4RKZQFJt5WI2Uf5_jEFs/view?usp=drive_link).
 
-> **Warning**
-> This APK is currently developed for Android phones and the view is not responsive.
-
 > [!WARNING]
-> This APK is currently developed for Android phones and the view is not responsive.
+> This APK is currently under development only for Android phones and the view is not responsive to all phones.
+
+### Server
+
+To run this express server, you should have Node.js as said above.
+
+Installation is done using `npm install`
+
+```console
+$ cd server
+$ npm install
+```
+Start the server using 
+
+```console
+$ node index.js
+```
+
+You will need a `.env` file or set up the environment variables to run the server.
+
+```.env
+REACT_APP_PORT = 8081
+REACT_APP_ATLAS_URI=mongodb+srv://<username>:<password>@data.uqt44o8.mongodb.net/?retryWrites=true&w=majority
+```
+
+It needs a **Mongo DB ATLAS** URI and a database on it to run the app smoothly.
+
+> [!NOTE]
+> The server is already hosted by us here **https://visonary-glucometer-server.onrender.com**
